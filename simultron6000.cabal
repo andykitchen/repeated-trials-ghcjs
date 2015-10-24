@@ -1,0 +1,9 @@
+name: simultron6000
+version: 0.0
+cabal-version: >=1.6
+build-type: Simple
+
+executable simultron6000
+    build-depends: base >=4.2 && <5,
+                   ghcjs-dom >=0.2 && <0.3
+    main-is: Main.hs
