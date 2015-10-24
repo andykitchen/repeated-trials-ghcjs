@@ -1,4 +1,4 @@
-simutron5000
+simutron 6000
 ==
 
 Simulates clinical trial designs.
