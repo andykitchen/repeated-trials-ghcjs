@@ -3,8 +3,30 @@
     <link rel="stylesheet" href="styles.css" />
     <link href='https://fonts.googleapis.com/css?family=Rubik+Mono+One'
         rel='stylesheet' type='text/css'>
+    <title>Simutron 6000</title>
 </head>
 <body>
-    <h1>Simultron 6000</h1>
+    <h1>Simutron 6000</h1>
+
+    <div class="content">
+        <h2>Stages</h2>
+
+        <div id="stagesList">
+            <div class="stage">
+                <label for="nPeople_j"># People</label>
+                <input type="text" value="" name="nPeople_j" />
+
+
+                <label for="e_j">$e_j$</label>
+                <input type="text" value="" name="e_j" />
+            </div>
+
+            <input type="button" value="Add stage" />
+        </div>
+
+        <input class="runSim" type="button" value="Run simulation" />
+
+        <h2>Output</h2>
+    </div>
 </body>
 </html>
