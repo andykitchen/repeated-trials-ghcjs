@@ -1,6 +1,6 @@
 name: simultron6000
 version: 0.0
-cabal-version: >=1.6
+cabal-version: >=1.10
 build-type: Simple
 
 executable simultron6000
